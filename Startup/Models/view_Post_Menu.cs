@@ -8,7 +8,7 @@ namespace Startup.Models
     {
         [Key]
         public long PostID { get; set; }
-        public string Title { get; set; }
+        public string? Title { get; set; }
         public string? Abstract { get; set; }
         public string? Contents { get; set; }
         public string? Images { get; set; }
@@ -20,6 +20,6 @@ namespace Startup.Models
         public int MenuID { get; set; }
         public int Category { get; set; }
         public int Status { get; set; }
-        public string MenuName { get; set; }
+        public string? MenuName { get; set; }
     }
 }
